@@ -1,3 +1,16 @@
-<h1>
-    Index method blog
-</h1>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>
+            Posts
+        </title>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    </head>
+    <body>
+        <h1>
+            Tailwind 3.3.3.3
+        </h1>
+    </body>
+</html>

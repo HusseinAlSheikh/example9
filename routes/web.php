@@ -18,5 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('blog', PostsController::class );
 
+Route::get('/',function (){
+    return view('index');
+});
 
 Route::fallback(FallbackController::class);

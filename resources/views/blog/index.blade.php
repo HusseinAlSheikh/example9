@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
-        <h1>
-            Tailwind 3.3.3.3
-        </h1>
+        @if (count($posts) > 100 )
+            @dd($posts)
+        @endif
     </body>
 </html>
